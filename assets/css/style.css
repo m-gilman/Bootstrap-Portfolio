@@ -10,10 +10,14 @@
 }
 
 /***** Elements *****/
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
+h3 {
+    font-size: 18px;
+}
 
 /***** Classes *****/
 .brand {
@@ -26,3 +30,54 @@ h1, h2, h3, h4 {
 .teal_title {
     color: #4aaaa5;
     }
+
+.social_container {
+    background: #ffffff;
+}
+
+.social_img_holder a {
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background: #666666;
+
+    /* padding-top: 45px; */
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
+}
+
+footer .container {
+    padding: 15px;
+    color: lightgrey;
+    
+} 
+
+
+.img_with_banner {
+    position: relative;
+    float: left;
+    width: 275px;
+    margin: 10px;
+}
+
+.img_with_banner h4  {
+    position: absolute;
+    top: 75%;
+    width: 270px;
+    height: 37px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff; 
+    line-height: 38px;
+    z-index: 100;
+}
+
+.img_with_banner img {
+    max-width: 270px;
+    
+}
+
+
+

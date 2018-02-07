@@ -5,7 +5,6 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
       <title>Melissa Gilman | About </title>
-      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
       <script src="main.js"></script>
@@ -15,8 +14,8 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container"> 
-        <h1 class="brand px-2 text-center"><strong>Melissa Gilman</strong></h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <h1 class="brand px-2 text-center">Melissa Gilman</h1>
+        <button class="mt-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -32,45 +31,46 @@
 
 <!-- MAIN CONTENT AREA -->
   <div class="container">
-    <div class="row mt-4"> <!-- Row 1.0 - includes Main Article and Social Sidebar -->
+    <div class="row my-4"> <!-- Row 1.0 - includes Main Article and Social Sidebar -->
       <!-- Main Article -->
-      <div class="col-md-8 bg-white"> <!-- Row 1.1 -->
-        <h2 class="border-bottom p-2 mb-3 teal_title"><strong>About Me</strong></h2>
+      <div class="mt-1 col-md-8 bg-white"> <!-- Row 1.1 -->
+        <h2 class="border-bottom p-2 mb-3 teal_title">About Me</h2>
         <div class="row"> <!-- Sub Row -After headline, all content goes here  -->
           <div class="col-md">
               <img class="img-responsive float-left mr-2 border border-secondary" src="./assets/images/selfie3.png" alt="Photo of Melissa" width="150">
               <p>I am currently enrolled in Coding Bootcamp at the University of Denver. Soon I will be an awesome web developer. I am working on an assignment using Bootstrap to create a responsive portfolio.</p>
               <p>The Bootstrap framework is supposed to make using CSS a lot simpler. Bootstrap is great if you know how to navigate the online documentation. </p>
               <p>When you link your bootstrap stylesheet, make sure you link the version that you actually wish to use. Some features won't work if you link the wrong one. </p>
-          </div>
+          </div> <!-- /column -->
         </div> <!-- /sub row - after headline row -->
       </div> <!-- /Row 1.1 -->
-      <div class="col-md-4 social_sidebar"> <!-- Row 1, Col. 2 -->
-        <div class="container">    
-          <div class="col align-self-center">
-            <h3>Connect with Me</h3>
-            <div class="img_holder">
-                <a href="https://github.com/m-gilman" target="_blank">
-                    <img src="./assets/images/github.png" alt="Github icon" width="50">
-                </a>
-                <a href="https://www.linkedin.com/in/melissa-gilman/" target="_blank">
-                    <img src="./assets/images/linkedin.png" alt="Linked-in icon" width="50">
-                </a>
-                <a href="https://stackoverflow.com/users/8974619/melissa-gilman" target="_blank">
-                    <img src="./assets/images/stackof.png" alt="Stack Overflow icon" width="50">
-                </a>
+      <div class="col-md-3 social_sidebar"> <!-- social_sidebar Row 1, Col. 2 -->
+        <div class="mt-1 container social_container text-center py-4">    
+          <!-- <div class="col align-self-center"> -->
+          <h3 class="border-bottom p-2 mb-3 teal_title">Connect with Me</h3>
+          <div class="social_img_holder">
+              <a href="https://github.com/m-gilman" target="_blank">
+                  <img src="./assets/images/github.png" alt="Github icon" width="50">
+              </a>
+              <a href="https://www.linkedin.com/in/melissa-gilman/" target="_blank">
+                  <img src="./assets/images/linkedin.png" alt="Linked-in icon" width="50">
+              </a>
+              <a href="https://stackoverflow.com/users/8974619/melissa-gilman" target="_blank">
+                  <img src="./assets/images/stackof.png" alt="Stack Overflow icon" width="50">
+              </a>
             </div> <!-- /img holder  -->
           </div> <!-- /container -->
-          </div>
-      </div> <!-- /Row 2, Col. 2 -->
-    </div> <!-- /Row 2 -->
+      </div> <!-- /social sidebar Row 1, Col. 2 -->
+    </div> <!-- /Row 1 -->
   </div> <!-- /Container -->
 
-  <footer class="footer text-center">
-      <div class="container">
-          <p>Copyright &copy; 2018 Melissa Gilman</p>
-      </div>
-    </footer>
+  <!-- FOOTER -->
+  <footer> 
+    <div class="container">
+    <span class="text-center ftr">Copyright &copy; 2018 Melissa Gilman</span>
+  </div>
+  </footer>
+
 
 
 
