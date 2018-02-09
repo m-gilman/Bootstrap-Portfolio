@@ -1,58 +1,47 @@
-/* * {
-    outline: 1px solid red !important;
-  } */
-
-  body {
+body {
+    background: url(../images/concrete_seamless.png);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #777777;
-    background: url(../images/wild_flowers.png);
 }
 
-/***** Elements *****/
-h1, h2, h3, h4, h5 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-/***** Classes *****/
-.brand {
+.logo {
+    font-size: 30px;
+    color: white;
     background: #4aaaa5;
-    color: #ffffff;
-    margin: -8px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
     line-height: 60px;
 }
 
-.teal_title {
-    color: #4aaaa5;
-    }
-
-.social_container {
-    background: #ffffff;
+.navbar-light .logo {
+    color: white;
 }
 
-.social_img_holder a {
-    text-decoration: none;
+.navbar-nav a {
+    font-weight: 500;
+    font-size: 18px;
 }
 
-/* FOOTER */
-footer {
-    background: #666666;
-
-    /* padding-top: 45px; */
-    border-top: 4px solid #4aaaa5;
-    text-align: center;
+header {
+    border-bottom: 2px solid #ccc;
 }
 
-footer .container {
-    padding: 15px;
-    color: lightgrey;
-    
-} 
+.main_title {
+color: #4aaaa5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 700;
+line-height: 60px;
+border-bottom: 2px solid #ddd;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
 
 
 .img_with_banner {
@@ -74,10 +63,11 @@ footer .container {
     z-index: 100;
 }
 
-.img_with_banner img {
-    max-width: 270px;
-    
-}
-
-
-
+/* footer */
+footer {
+    padding: 30px 0;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
