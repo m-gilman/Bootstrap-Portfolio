@@ -71,3 +71,9 @@ footer {
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;
+}
+
+/* contact page */
+#message {
+    height: 200px;
+}
