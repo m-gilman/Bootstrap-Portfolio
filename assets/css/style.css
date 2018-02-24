@@ -1,3 +1,7 @@
+/* * {
+    outline: 1px solid red !important;
+  } */
+
 body {
     background: url(../images/concrete_seamless.png);
     font-family: Arial, Helvetica, sans-serif;
@@ -32,6 +36,7 @@ color: #4aaaa5;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: 700;
 line-height: 60px;
+height: 30"
 border-bottom: 2px solid #ddd;
 }
 
